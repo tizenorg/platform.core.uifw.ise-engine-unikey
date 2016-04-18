@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3" package="unikey" version="0.3.1" install-location="internal-only">
+<author/>
+<description/>
+<label>Vietnamese keyboard</label>
+<icon/>
+<ui-application appid="org.tizen.ise-engine-unikey" exec="/usr/lib/scim-1.0/scim-launcher" nodisplay="true" taskmanage="false" multiple="false" type="capp" hw-acceleration="use-system-setting" mainapp="true">
+    <category name="http://tizen.org/category/ime"/>
+    <label>Vietnamese keyboard</label>
+    <label xml:lang="en-gb">Vietnamese keyboard</label>
+    <icon/>
+</ui-application>
+</manifest>
