@@ -1,5 +1,5 @@
 Name:       ise-engine-unikey
-Version:    0.3.1
+Version:    0.3.2
 Release:    1
 Summary:    Vietnamese Input Method Engine for SCIM using Unikey IME
 License:    GPL-2.0+
