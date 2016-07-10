@@ -1512,6 +1512,11 @@ int UkEngine::appendConsonnant(UkKeyEvent & ev)
 {
     bool complexEvent = false;
     m_current++;
+    if (m_current >= MAX_UK_ENGINE) {
+        reset();
+        return 0;
+    }
+
     WordInfo & entry = m_buffer[m_current];
 
     VnLexiName lowerSym = vnToLower(ev.vnSym);
